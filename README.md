@@ -20,4 +20,4 @@ Here are the simple steps to automatically create an issue in a repository when 
     * This program also uses the access token. Please follow the link to setup the [access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
     * *GitHub.json* file referenced in the program contains the access token which is not checked in for security reason
 
-3. Manually delete repository "**repo-to-delete**", the deletion would raise the event to trigger the webhook which would automatically create the issue in the repository "**repo-to-keep**".
+3. Manually delete repository "**repo-to-delete**", the deletion would raise the event to trigger the webhook which would automatically create the issue in the repository "**repo-to-keep**". The issue is to alert myself with @mention to review the deletion.
