@@ -20,6 +20,7 @@ Here are the simple steps to automatically create an issue in a repository when 
    ruby repo_webhook_post_issues.rb
    ```
     * Link to install [Ruby](https://www.ruby-lang.org/en/downloads/)
+      - $ brew install ruby
     * This program uses GitHub [Issues REST API](https://developer.github.com/v3/issues/#create-an-issue).
     * It also uses Sinatra. Reference [Sinatra guide](http://sinatrarb.com/) for additional information
     * *GitHub.json* file referenced in the program contains the access token which is not checked in for security reason. Please follow the link to setup the [access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
